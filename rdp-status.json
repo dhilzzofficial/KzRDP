@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "hostname": "kzdesk-2",
   "os": "Microsoft Windows Server 2025 Datacenter",
   "os_build": "10.0.26100",
@@ -43,17 +43,18 @@
     "tunnel": {
       "selftest": "ok",
       "status": "ok",
-      "host": "100.88.123.105",
       "outside": "tailscale",
-      "address": "100.88.123.105:3389",
-      "port": 3389
+      "host": "",
+      "port": 0,
+      "address": ""
     },
     "tailscale": {
-      "hostname": "kzdesk-2",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "magicdns": "kzdesk-2.tailc154a8.ts.net.",
       "status": "ok",
-      "ip": "100.88.123.105"
+      "ip": "",
+      "magicdns": "",
+      "hostname": "",
+      "funnel_addr": ""
     }
   },
   "media": {
@@ -167,5 +168,6 @@
     "cpu_percent": 66,
     "uptime_menit": 357,
     "updated_at": "2026-11-12T13:25:36.4232809Z"
-  }
+  },
+  "stopped_at": "2026-11-12T13:29:27Z"
 }
