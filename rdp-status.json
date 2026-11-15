@@ -159,13 +159,13 @@
   },
   "statistik": {
     "ram_total_gb": 15.99,
-    "ram_used_gb": 4.61,
-    "ram_free_gb": 11.38,
+    "ram_used_gb": 5.77,
+    "ram_free_gb": 10.22,
     "disk_total_gb": 149.9,
-    "disk_free_gb": 28.3,
-    "cpu_percent": 13,
-    "uptime_menit": 194,
-    "updated_at": "2026-11-15T01:35:45.0863959Z"
+    "disk_free_gb": 28.2,
+    "cpu_percent": 27,
+    "uptime_menit": 196,
+    "updated_at": "2026-11-15T01:36:51.7941342Z"
   },
-  "heartbeat_at": "2026-11-15T01:35:45.0863547Z"
+  "heartbeat_at": "2026-11-15T01:36:51.7941026Z"
 }
