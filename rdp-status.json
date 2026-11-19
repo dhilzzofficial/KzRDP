@@ -156,5 +156,16 @@
       "XAMPP: Installer exit=1"
     ],
     "public_port": false
+  },
+  "heartbeat_at": "2026-11-19T06:09:46.2761275Z",
+  "statistik": {
+    "ram_total_gb": 15.99,
+    "ram_used_gb": 4.18,
+    "ram_free_gb": 11.81,
+    "disk_total_gb": 149.9,
+    "disk_free_gb": 31.1,
+    "cpu_percent": 4,
+    "uptime_menit": 11,
+    "updated_at": "2026-11-19T06:09:46.2775381Z"
   }
 }
