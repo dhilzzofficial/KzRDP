@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "hostname": "kzrdp-7",
   "os": "Microsoft Windows Server 2025 Datacenter",
   "os_build": "10.0.26100",
@@ -40,20 +40,21 @@
   },
   "akses": {
     "tailscale": {
-      "magicdns": "kzrdp-7.tailc154a8.ts.net.",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "hostname": "kzrdp-7",
       "status": "ok",
-      "ip": "100.91.166.76"
+      "ip": "",
+      "magicdns": "",
+      "hostname": "",
+      "funnel_addr": ""
     },
     "mode": "tailscale",
     "tunnel": {
-      "host": "100.91.166.76",
-      "port": 3389,
       "outside": "tailscale",
       "selftest": "ok",
       "status": "ok",
-      "address": "100.91.166.76:3389"
+      "host": "",
+      "port": 0,
+      "address": ""
     }
   },
   "media": {
@@ -167,5 +168,6 @@
     "cpu_percent": 1,
     "uptime_menit": 357,
     "updated_at": "2026-11-19T11:55:32.9355413Z"
-  }
+  },
+  "stopped_at": "2026-11-19T11:58:04Z"
 }
